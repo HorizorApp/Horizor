@@ -68,11 +68,12 @@ Whitepaper: ${analysis.data.links.whitepaper}
 
 
 
-![bluepaper](./assets/bluepaper.jpg)
-##🧑‍💼 AI-Powered Blockchain Analysis
+## 🧑‍💼 AI-Powered Blockchain Analysis
 
 We implement cutting-edge machine learning algorithms using powerful frameworks such as TensorFlow, PyTorch, and Hugging Face. These frameworks enable the creation of highly efficient models for analyzing vast amounts of data and generating actionable insights.
 Horizor employs NLP models like DeepSeek and BERT to analyze whitepapers, tweets, and other text content from blockchain projects. This allows us to understand project intentions, detect inconsistencies, and identify potential risks or opportunities.
+
+![bluepaper](./assets/bluepaper.jpg)
 
 Based on machine learning and historical data from past successful and failed tokens, Horizor AI precisely predicts the potential of new projects. The platform evaluates factors such as market sentiment, community engagement, tokenomics, and GitHub activity to provide users with an overall project rating.
 
