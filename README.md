@@ -23,7 +23,7 @@ Advanced AI-powered platform for pre-launch blockchain project analysis. Built o
 <p align="center">
   <a href="https://horizor.app">Website</a> •
   <a href="https://horizorapp.gitbook.io/docs">Documentation</a> •
-  <a href="https://docs.horizor.app">Roadmap</a>
+  <a href="https://horizor.app#Roadmap">Roadmap</a>
 </p>
 
 
