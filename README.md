@@ -65,7 +65,7 @@ Whitepaper: ${analysis.data.links.whitepaper}
 
 ```
 
-## 🔍Advanced Usage
+## 🔍 Advanced Usage
 
 ### Batch Processing
 
