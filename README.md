@@ -113,18 +113,32 @@ async function batchAnalysis(projectIds: string[]) {
 ## API Integration
 
 ```typescript
-import { HorizorClient, ChatMessage } from 'horizor-app';
+import { HorizorClient, AnalysisMessage } from 'horizor-app';
 
-async function chatWithAI() {
+async function analyzeProjectWithAI() {
+  // Initialize the client
   const client = new HorizorClient();
-  const messages: ChatMessage[] = [{
-    role: 'user',
-    content: 'Analyze the risks and potential of project XYZ'
-  }];
-  
-  const response = await client.chat('ai-agent-id', messages);
-  console.log('AI Analysis:', response.data.response);
+
+  // Define the analysis request
+  const messages: AnalysisMessage[] = [
+    {
+      role: 'user',
+      content: 'Analyze the risks and potential of project XYZ based on Twitter, GitHub, and Whitepaper data.',
+    },
+  ];
+
+  try {
+    // Send the analysis request to the AI analyst
+    const analysisResponse = await client.analyzeWithAI('analyst-id', messages);
+    
+    // Log the AI-generated analysis
+    console.log('AI Analysis:', analysisResponse.data.response);
+  } catch (error) {
+    console.error('Error during analysis:', error.message);
+  }
 }
+
+analyzeProjectWithAI();
 ```
 
 
