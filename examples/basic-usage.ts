@@ -25,7 +25,7 @@ async function main() {
     // Analyze Tokenomics for the project
     const tokenomicsAnalysis = await client.analyzeTokenomics(projectId);
     console.log('Tokenomics Analysis:', tokenomicsAnalysis.data);
-
+ 
     // List all available AI analysts
     const analysts = await client.listAnalysts();
     console.log('Available Analysts:', analysts.data);
