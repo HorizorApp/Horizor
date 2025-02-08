@@ -15,7 +15,7 @@ Dependencies:
 
     (easy_install) BeautifulSoup
 '''
-
+ 
 import sys
 from urllib import urlopen as _open
 from BeautifulSoup import BeautifulSoup
