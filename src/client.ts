@@ -6,7 +6,7 @@ export class HorizorClient {
   constructor(baseUrl: string = 'https://api.horizor.app') {
     this.baseUrl = baseUrl;
   }
-
+ 
   private async request<T>(
     endpoint: string,
     options: RequestInit = {}
