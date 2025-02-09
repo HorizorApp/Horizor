@@ -19,7 +19,7 @@
     "clean": "rimraf dist",
     "lint": "eslint src --ext .ts",
     "format": "prettier --write \"src/**/*.ts\""
-  },
+  }, 
   "keywords": [
     "solana",
     "blockchain",
