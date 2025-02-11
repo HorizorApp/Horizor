@@ -10,7 +10,7 @@ with their Twitter account. A few HTTP calls to twitter are required
 to do this. Please see the twitter.oauth_dance module to see how this
 is done. If you are making a command-line app, you can use the
 oauth_dance() function directly.
-
+ 
 Performing the "oauth dance" gets you an ouath token and oauth secret
 that authenticate the user with Twitter. You should save these for
 later so that the user doesn't have to do the oauth dance again.
