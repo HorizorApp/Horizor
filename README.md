@@ -147,7 +147,7 @@ analyzeProjectWithAI();
 - [ ] API integration for displaying AI analysis results in the Dashboard
 - [ ] Ability to sort projects by rating, activity, and date added
 - [ ] Development of a Telegram bot for instant notifications about new project launches and their summaries
-- [ ] Creation of a Pro subscription with payment in $HOR  to allow users to run their own project analysis based on Twitter data
+- [ ] Creation of a Pro subscription with payment in $Horizor  to allow users to run their own project analysis based on Twitter data
 - [ ] Providing a more detailed summary in the Pro vision, covering all aspects analyzed by our AI
 Adding charts for visualizing activity on Twitter and GitHub
 
